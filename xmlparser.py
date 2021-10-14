@@ -17,7 +17,7 @@ def get_xml(file):
 
             output = output.replace("\n", "")
             output = output.replace("\t", "")
-            output = BeautifulSoup(output).prettify()
+            output = BeautifulSoup(output).prettify() # Форматирование в читаемый вид
 
     return output
 
